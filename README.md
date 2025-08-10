@@ -65,11 +65,12 @@ Spring Framework configuration and examples.
 ---
 
 ## 🛠 Technologies & Tools
-- **Java SE & Java EE**
+- **Java **
 - **Maven** (project build and dependency management)
 - **JDBC** (database connectivity)
 - **Spring Framework** (basic configurations)
 - IDE: IntelliJ IDEA
 
 ---
+
 
