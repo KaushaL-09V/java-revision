@@ -1,4 +1,4 @@
-# 📚 Java Revision Repository
+# 📚 Java Revision
 
 A structured collection of Java code examples and mini-projects covering **Core Java**, **OOP**, **Advanced Java**, **Maven**, **JDBC**, and **Spring**.  
 This repository is designed for **Java learners** and **developers** to revise important concepts with hands-on examples.
@@ -72,3 +72,4 @@ Spring Framework configuration and examples.
 - IDE: IntelliJ IDEA
 
 ---
+
