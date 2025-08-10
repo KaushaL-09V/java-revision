@@ -1,0 +1,40 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--
+    <bean id="alien1" class="org.example.Alien"></bean>
+    <bean id="alien1" class="org.example.Alien" scope="prototype"></bean>
+-->
+<!--
+    <bean id="alien1" class="org.example.Alien">
+        <constructor-arg type="org.example.laptop" ref="laptop" ></constructor-arg>
+        <constructor-arg type="int" value="21"></constructor-arg>
+    </bean>
+-->
+<!--
+    <bean id="alien1" class="org.example.Alien">
+        <constructor-arg type="org.example.laptop" ref="laptop" ></constructor-arg>
+        <constructor-arg type="int" value="21"></constructor-arg>
+    </bean>
+-->
+    <!--
+    <bean id="alien1" class="org.example.Alien">
+        <constructor-arg index="1" ref="laptop" ></constructor-arg>
+        <constructor-arg index="0" value="21"></constructor-arg>
+    </bean>
+    -->
+<!--    Sequence Required-->
+    <bean id="alien1" class="org.example.Alien">
+        <constructor-arg name="lap" ref="laptop" ></constructor-arg>
+        <constructor-arg name="age" value="21"></constructor-arg>
+    </bean>
+
+    <!-- Every time only one object Created Because of scope
+    -->
+
+    <bean id="laptop" class="org.example.laptop">
+    </bean>
+    <!--    If We don't mention id its Ok With that-->
+</beans>

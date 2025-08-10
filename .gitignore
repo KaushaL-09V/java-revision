@@ -1,0 +1,54 @@
+# Maven target directory
+/target/
+
+# Gradle build directories
+/build/
+/.gradle/
+
+# Maven and Gradle wrapper files (optional to ignore JARs)
+!gradle/wrapper/gradle-wrapper.jar
+
+# Eclipse specific files
+.project
+.classpath
+.settings/
+bin/
+
+# IntelliJ IDEA specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Environment variables
+*.env
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Java specific
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+replay_pid*
+
+# Spring Boot devtools
+.spring-boot-devtools.properties
+
+# Test reports
+/test-output/
